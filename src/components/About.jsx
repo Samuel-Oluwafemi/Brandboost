@@ -2,7 +2,7 @@ export function About() {
   return (
     <div
       id="about"
-      className="mt-5 md:mt-10 p-6 md:p-13 w-full text-black text-center text-4xl"
+      className="mt-10 p-6 md:p-13 w-full text-black text-center text-4xl"
     >
       <h1 className="mb-4 font-semibold">
         Our Commitment to Fast Delivery, Modern Design, and Real Results
@@ -14,7 +14,7 @@ export function About() {
 
       <div className="h-1 w-24 bg-gradient-to-r from-blue-800 to-slate-400 mx-auto mt-6 rounded-full gap-8"></div>
 
-      <main className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 gap-7">
+      <main className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 gap-10">
         <div className="">
           <h1 className="text-2xl font-semibold underline mb-4">
             Fast Delivery

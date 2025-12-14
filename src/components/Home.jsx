@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 export function Home() {
   return (
     <>
-      <div className="flex flex-col text-black h-350 items-center justify-center mt-20">
+      <div className="flex flex-col text-black h-350 items-center justify-center mt-10">
         <main className="mt-67 md:mt-0">
           {/* Big bold Headline */}
           <h2 className="text-6xl md:text-7xl text-center text-black font-bold p-8">
@@ -35,7 +35,7 @@ export function Home() {
         {/* Creative Image */}
         <div className="bg-blue-100 md:bg-transparent">
           <img
-            src="/src/assets/BrandBoost_ Powering Business Growth with Smart Online Presence - visual selection (1).png"
+            src="/images/BrandBoost_ Powering Business Growth with Smart Online Presence - visual selection (1).png"
             alt="Business Growth"
             className="w-4/4 md:w-3/4 mx-auto rounded-lg mt-10"
           />
