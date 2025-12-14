@@ -11,7 +11,7 @@ export function Navbar() {
       <div className="flex items-center justify-between">
         {/* Logo Left */}
         <main
-          className={`text-3xl md:text-2xl font-semibold text-black ${
+          className={`text-2xl md:text-2xl font-semibold text-black ${
             open ? "hidden" : "block"
           } md:block`}
         >
@@ -49,7 +49,7 @@ export function Navbar() {
 
       {/* Moblie Menu navigation links*/}
       {open && (
-        <div className="md:hidden text-xl text-black font-semibold flex flex-col mt-3 gap-8 w-full items-center">
+        <div className="md:hidden text-lg text-black flex flex-col mt-3 gap-8 w-full items-center">
           <a href="#services" className="cursor-pointer hover:text-blue-600">
             Services
           </a>

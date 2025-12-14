@@ -5,8 +5,8 @@ import { Footer } from "./Footer";
 export function Home() {
   return (
     <>
-      <div className="flex flex-col text-black h-350 items-center justify-center mt-10">
-        <main className="mt-67 md:mt-0">
+      <div className="flex flex-col text-black h-350 items-center justify-center mt-50 md:mt-20">
+        <main>
           {/* Big bold Headline */}
           <h2 className="text-6xl md:text-7xl text-center text-black font-bold p-8">
             Grow Your Business With <br /> Smart
