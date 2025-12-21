@@ -49,7 +49,7 @@ export function Navbar() {
 
       {/* Moblie Menu navigation links*/}
       {open && (
-        <div className="md:hidden text-lg text-black flex flex-col mt-3 gap-8 w-full items-center">
+        <div className="md:hidden text-xl text-black flex flex-col mt-3 gap-8 items-center">
           <a href="#services" className="cursor-pointer hover:text-blue-600">
             Services
           </a>
