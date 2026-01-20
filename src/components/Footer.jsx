@@ -21,16 +21,16 @@ export function Footer() {
             id="services"
             className="text-md mb-2 cursor-pointer hover:text-blue-400"
           >
-            Services
-          </p>
-          <p className="text-md mb-2 cursor-pointer hover:text-blue-400">
-            Testimonials
+            About
           </p>
           <p className="text-md mb-2 cursor-pointer hover:text-blue-400">
             Pricing
           </p>
           <p className="text-md mb-2 cursor-pointer hover:text-blue-400">
-            About
+            Services
+          </p>
+          <p className="text-md mb-2 cursor-pointer hover:text-blue-400">
+            Testimonials
           </p>
         </div>
 
@@ -42,16 +42,16 @@ export function Footer() {
           <p className="text-md mb-2">Email: brandboost@gmail.com</p>
           <p className="text-md mb-2">Phone: (123) 456-7890</p>
           <div className="flex md:gap-5 md:mt-3 mt-5 gap-7 text-center justify-center md:float-right">
-            <a href="#" target="_blank" className="hover:text-blue-400">
+            <a href="#" target="_blank" className="hover:text-blue-500">
               <FaLinkedin />
             </a>
-            <a href="https://tiktok.com/" target="_blank" className="hover:text-blue-400" alt="Thetoothgemng">
+            <a href="https://tiktok.com/" target="_blank" className="hover:text-blue-500" alt="Thetoothgemng">
               <FaTiktok />
             </a>
-            <a href="https://instagram.com/" target="_blank" className="hover:text-blue-400" alt="elless_beauty">
+            <a href="https://instagram.com/" target="_blank" className="hover:text-blue-500" alt="elless_beauty">
               <FaInstagram />
             </a>
-            <a href="#" target="_blank" className="hover:text-blue-400">
+            <a href="#" target="_blank" className="hover:text-blue-500">
               <FaTwitter />
             </a>
           </div>

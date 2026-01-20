@@ -19,20 +19,20 @@ export function Navbar() {
 
         {/* hidden md:flex -Navs right hidden on mobile, visible on tablet/desktop*/}
         <div className="hidden md:flex space-x-6 text-black text-md font-semibold gap-4">
+          <a href="#about" className="cursor-pointer hover:text-blue-600">
+            About
+          </a>
+          <a
+            href="#pricing"
+            className="cursor-pointer hover:text-blue-600"
+          >
+            Pricing
+          </a>
           <a href="#services" className="cursor-pointer hover:text-blue-600">
             Services
           </a>
-          <a
-            href="#testimonials"
-            className="cursor-pointer hover:text-blue-600"
-          >
+          <a href="#testmonials" className="cursor-pointer hover:text-blue-600">
             Testimonials
-          </a>
-          <a href="" className="cursor-pointer hover:text-blue-600">
-            Pricing
-          </a>
-          <a href="#about" className="cursor-pointer hover:text-blue-600">
-            About
           </a>
         </div>
         
