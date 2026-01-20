@@ -1,7 +1,8 @@
 import { Barrel } from "lucide-react";
+import { FaTwitter, FaInstagram, FaTiktok, FaLinkedin } from "react-icons/fa";
 export function Footer() {
   return (
-    <div className="bg-slate-800 p-12 w-full text-white text-center mt-20">
+    <div data-aos="fade-up" className="bg-slate-800 p-12 w-full text-white text-center mt-20">
       <main className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-40">
         <div className="mt-5 text-center md:text-left">
           <h1 className="text-3xl text-semibold mb-4">
@@ -36,10 +37,24 @@ export function Footer() {
         <div className="mt-5 text-center md:text-right">
           <h1 className="text-2xl font-semibold mb-4">Contact Us</h1>
           <p className="text-md mb-2">
-            1234 Market St, San Francisco, CA 94103
+            1234 Market St, San Francisco
           </p>
           <p className="text-md mb-2">Email: brandboost@gmail.com</p>
           <p className="text-md mb-2">Phone: (123) 456-7890</p>
+          <div className="flex md:gap-5 md:mt-3 mt-5 gap-7 text-center justify-center md:float-right">
+            <a href="#" target="_blank" className="hover:text-blue-400">
+              <FaLinkedin />
+            </a>
+            <a href="https://tiktok.com/" target="_blank" className="hover:text-blue-400" alt="Thetoothgemng">
+              <FaTiktok />
+            </a>
+            <a href="https://instagram.com/" target="_blank" className="hover:text-blue-400" alt="elless_beauty">
+              <FaInstagram />
+            </a>
+            <a href="#" target="_blank" className="hover:text-blue-400">
+              <FaTwitter />
+            </a>
+          </div>
         </div>
       </main>
 

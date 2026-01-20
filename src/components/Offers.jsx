@@ -1,6 +1,6 @@
 export function Offer() {
     return (
-        <div className="bg-blue-600 w-full py-10 px-5 md:py-20 text-white text-center text-4xl">
+        <div data-aos="fade-up" className="bg-blue-600 w-full py-10 px-5 md:py-20 text-white text-center text-4xl">
             <h1 className="mt-5 mb-10 font-semibold">
                 BrandBoost: Powering Business Growth with Smart Online Presence</h1>
                 <p className="text-lg">

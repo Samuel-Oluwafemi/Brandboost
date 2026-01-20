@@ -6,7 +6,7 @@ export function Home() {
   return (
     <>
       <div className="flex flex-col min-h-screen text-black items-center justify-center py-22">
-        <main className="mb-5">
+        <main data-aos="fade-up" className="mb-5">
           {/* Big bold Headline */}
           <h2 className="text-6xl md:text-7xl text-center text-black font-bold py-8 leading-tight">
             Grow Your Business With <br /> Smart
@@ -33,7 +33,7 @@ export function Home() {
         <Offer />
 
         {/* Creative Image */}
-        <div className="bg-blue-100 md:bg-transparent">
+        <div data-aos="fade-up" className="bg-blue-100 md:bg-transparent">
           <img
             src="/images/BrandBoost_ Powering Business Growth with Smart Online Presence - visual selection (1).png"
             alt="Business Growth"

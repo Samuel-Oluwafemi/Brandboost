@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div
+    <div data-aos="fade-up"
       id="about"
       className="mt-10 p-6 md:p-13 w-full text-black text-center text-4xl"
     >

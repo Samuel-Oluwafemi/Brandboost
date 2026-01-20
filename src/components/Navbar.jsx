@@ -4,7 +4,7 @@ import { Barrel, Menu, X } from "lucide-react";
 export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav
+    <nav data-aos="fade-right"
       className="fixed top-0 bg-linear-to-r from-white/90 to-blue-300/40
      backdrop-blur-md w-full py-6 px-6 border-b border-gray-300/70 z-50"
     >

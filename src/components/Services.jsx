@@ -1,7 +1,7 @@
 import { SearchCode, Code, LayoutDashboard } from "lucide-react";
 export function Services() {
   return (
-    <div
+    <div data-aos="zoom-in"
       id="services"
       className="bg-blue-600 w-full py-14 px-4 md:p-20 text-white text-center text-4xl"
     >
