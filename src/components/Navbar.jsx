@@ -6,14 +6,12 @@ export function Navbar() {
   return (
     <nav
       className="fixed top-0 bg-linear-to-r from-white/90 to-blue-300/40
-     backdrop-blur-md w-full py-6 px-6"
+     backdrop-blur-md w-full py-6 px-6 border-b border-gray-300/70 z-50"
     >
       <div className="flex items-center justify-between">
         {/* Logo Left */}
         <main
-          className={`text-2xl md:text-2xl font-semibold text-black ${
-            open ? "hidden" : "block"
-          } md:block`}
+          className={`text-2xl md:text-2xl font-semibold text-black`}
         >
           <Barrel className="inline size-7 mb-1 md:size-7 mb-2" />
           Brand<span className="text-blue-700">Boost</span>

@@ -5,15 +5,15 @@ import { Footer } from "./Footer";
 export function Home() {
   return (
     <>
-      <div className="flex flex-col text-black h-350 items-center justify-center mt-50 md:mt-20">
-        <main>
+      <div className="flex flex-col min-h-screen text-black items-center justify-center py-22">
+        <main className="mb-5">
           {/* Big bold Headline */}
-          <h2 className="text-6xl md:text-7xl text-center text-black font-bold p-8">
+          <h2 className="text-6xl md:text-7xl text-center text-black font-bold py-8 leading-tight">
             Grow Your Business With <br /> Smart
             <span className="text-blue-700"> Online Presence.</span>
           </h2>
           {/* Subtext */}
-          <p className="text-xl text-gray-800 px-10 md:px-35 text-center">
+          <p className="text-xl text-gray-800 px-14 md:px-10 md:px-35 text-center">
             BrandBoost helps businesses stand out with beautiful websites,
             <br />
             SEO strategy, and analytics.
